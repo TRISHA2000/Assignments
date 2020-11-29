@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    font-family: 'Helvetica';
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    background-color: #434D5A ;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    background-color: #434D5A;
+}
+
+#contentArea {
+    min-height: 800px;
+}
+
+#company_name {
+    padding: 7px;
+    margin-left: 248px;
+    max-width: initial;
+}
+
+.green-banner {
+    height: 45px;
+    width: 100%;
+    background-color: #56BC93;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul.nav {    
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+}
+
+
+.nav li {
+    margin-right: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-photo-box {
+    background-color: white;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: auto;
+}
+
+.highlight-tab {
+    background-color: #3A926F;
+    padding: 0px 12px;
+}
+
+#cover-photo-wrapper img {
+    
+    width: 100%;
+}
+
+.center-align  {
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#copyright {
+}
+
+#photo-container {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.photo-box {
+    background-color: white;
+    width: 300px;
+    height: 278px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.thumbnail {
+    height: 227px;
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+.thumbnail-space {
+    margin-right: 15px;
+}
+
+.gallery-section-label {
+    text-align: center;
+    color: #6d6875;
+}
+
+.gallery-font {
+    line-height: 2;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-stretch: 100%;
+    color: tomato;
+    height: 80px;
+}
+
+.original-font {
+    font-size: 15px;
+    text-align: center;
+    color: #B3808A;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.many-box {
+    color: white;
+}
+
+.first-column {
+    text-align: left;
+    padding: 10px 20px 10px 0px;
+}
+
+.wrapper {
+    background-color: #7E8DA0;
+    margin-top: 30px;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 2;
+    box-shadow: 2px 3px 5px black;
+
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+#copyright-text {
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
